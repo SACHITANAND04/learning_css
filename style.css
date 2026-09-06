@@ -1,0 +1,46 @@
+ .heading{
+        font-size: 50px;
+        color: red;
+        background:black ;
+    }
+    .para1{
+        color: red;
+    }
+    #heading1{
+        font-size: 50px;
+        color: pink;
+        font-family: monospace;
+        background-color: aqua;
+    }
+      #heading2{
+        font-size: 50px;
+        color: pink;
+        font-family: monospace;
+        background-color: aqua;
+    }
+    .heading_bg_color{
+        background-color: blueviolet;
+    }
+    .heading_font_size{
+        font-size: 40px;
+        color: red;
+        background-color: black;
+    }
+    #heading3{
+        font-size: 60px;
+        color: brown;
+        background-color: blanchedalmond;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .t_transform_uppercase{
+        text-transform:uppercase;
+    }
+       .t_transform_lowercase{
+        text-transform:lowercase;
+    }
+    .t_transform_capitilize{
+        text-transform: capitalize;
+    }
+    .t_decor_underling{
+        text-decoration: underline;
+    }
