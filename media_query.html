@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Example</title>
+
+   <style>
+    @media (min-width: 320px) and (max-width: 767px) {
+
+            body {
+                background-color: aqua;
+            }
+
+            h1 {
+                color: red;
+            }
+
+            h2 {
+                font-size: 30px;
+                text-shadow: 4px 5px 6px grey;
+            }
+
+            p {
+                background-color: black;
+                color: white;
+                padding: 10px;
+                border: 4px solid red;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        @media(min-width:768px){
+            body{
+                background-color: black;
+                color: white;
+            }
+            h1{
+                color: yellow;
+
+            }
+        }
+
+        /* from 1224px to up */
+        @media(min-width:1224px){
+            body{
+                background-color:orange;
+                color:red;
+            }
+            h1{
+                color:chartreuse;
+            }
+        }
+        </style>
+</head>
+
+<body>
+
+    <h1>Hello Welcome To Media Query Example</h1>
+
+    <h2>Hello Its Sachitanand Ambulgekar</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Totam ab tempora minus odio quam, error reprehenderit
+        voluptates beatae.
+    </p>
+
+    <img src="images/bmw1.jpg" alt="BMW">
+
+</body>
+</html>
