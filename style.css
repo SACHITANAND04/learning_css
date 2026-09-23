@@ -44,3 +44,9 @@
     .t_decor_underling{
         text-decoration: underline;
     }
+    .text{
+        background-color: black;
+        color: white;
+        height: 100px;
+        text-align: center;
+    }
